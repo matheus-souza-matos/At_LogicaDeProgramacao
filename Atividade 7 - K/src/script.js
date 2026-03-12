@@ -8,4 +8,4 @@ let valorEmDolar = (valorReal / valorCotacao);
 
 alert(`
     O valor de R$${valorReal},00 em dolar é: U$${valorEmDolar}.00;
-`)
+`);
