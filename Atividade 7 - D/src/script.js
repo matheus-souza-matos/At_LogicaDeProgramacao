@@ -2,11 +2,13 @@
 
 
 let tempo = parseFloat(prompt("Qual o tempo (em horas) da viagem?"));
-let vMedia = parseFloat(prompt("Qual velocidade média (em km/h) da viagem?"));
+let vMedia = parseFloat(prompt("Qual velocidade média (em km/h) da viagem?")); 
 
-let distancia = tempo * vMedia;
-let litrosUsados = distancia / 12;
+let distancia = tempo * vMedia; // multiplica os valores "tempo" e "vMedia" e armazena na variável "distancia"
+let litrosUsados = distancia / 12; // divide a distância pela média do carro e armazena o valor em "litrosUssados"
 
+
+//trás para o usuário as informações solicitadas
 alert(`
     Para um veículo de autonomia de 12km, o resultado foi:
     Velocidade Média: ${vMedia} km/h;
