@@ -6,7 +6,6 @@ let numeroB = parseInt(prompt("Digite o segundo valor: "));
 let numeroC = parseInt(prompt("Digite o terceiro valor: "));
 let numeroD = parseInt(prompt("Digite o quarto valor: "));
 
-
 // Mostra a adição e seu resultado para o usuário - conceito da propriedade distributiva
 alert(`
     //------ ADIÇÃO ------//
