@@ -4,8 +4,8 @@ let valor1 = parseFloat(prompt("Digite o primeiro valor:"));
 let valor2 = parseFloat(prompt("Digite o segundo valor:"));
 let valor3 = parseFloat(prompt("Digite o terceiro valor:"));
 
-let somaTotalValores = valor1 + valor2 + valor3;
-let somaQuadradoTotal = somaTotalValores ** 2
+let somaTotalValores = valor1 + valor2 + valor3; //Soma os 3 valores informados
+let somaQuadradoTotal = somaTotalValores ** 2 //Descobre o valor do quadrado da soma dos 3 números
 
 alert(`
     Primeiro Valor: ${valor1}; 
