@@ -4,7 +4,7 @@ let valor1 = parseFloat(prompt("Digite o primeiro valor:"));
 let valor2 = parseFloat(prompt("Digite o segundo valor:"));
 let valor3 = parseFloat(prompt("Digite o terceiro valor:"));
 
-let somaTotal = (valor1 ** 2) + (valor2 ** 2) + (valor3 ** 2 );
+let somaTotal = (valor1 ** 2) + (valor2 ** 2) + (valor3 ** 2 ); //Eleva cada valor ao quadrado PRIMEIRO e depois soma os resultados
 
 alert(`
     Primeiro Valor: ${valor1}; 
